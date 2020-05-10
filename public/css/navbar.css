@@ -31,3 +31,16 @@
   font-weight: 300;
   font-size: 14px;
 }
+#navbar .container #icon-list {
+  width: 200px;
+}
+#navbar .container #icon-list ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar .container #icon-list ul li {
+}
