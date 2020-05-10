@@ -1,0 +1,127 @@
+.img-card-image {
+  display: flex;
+}
+.img-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.img-card-header .img-owner .owner-avatar-wrapper {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(140, 27, 140);
+  background: linear-gradient(
+    22deg,
+    rgba(140, 27, 140, 1) 0%,
+    rgba(164, 8, 182, 1) 29%,
+    rgba(255, 173, 0, 1) 100%
+  );
+  border-radius: 50%;
+}
+.img-card-header .img-owner .owner-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border: 2px solid #fff;
+}
+
+.img-card-header .img-owner .owner-name {
+  position: absolute;
+  text-align: center;
+  left: 43px;
+  transform: translate(0, -50%);
+  top: 50%;
+  font-size: 14px;
+  color: #262626;
+}
+.img-card-content {
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  border-top: 0;
+  border-bottom: 0;
+}
+.img-card-content > *,
+.img-card-content b,
+.img-comment-section .img-view-all,
+.img-comment-section .img-comment {
+  font-size: 14px;
+}
+
+.img-card-content .img-card-like {
+  margin: 10px 0;
+}
+.img-card-content .img-card-cap,
+.img-card-content .img-view-all,
+.img-card-content .img-comment {
+  margin-bottom: 5px;
+}
+.img-view-all {
+  color: #8f8f8f;
+}
+.img-hour-ago {
+  text-transform: uppercase;
+  font-size: 11px !important;
+  color: #8f8f8f;
+  margin-top: 10px;
+}
+
+.img-card-comment-form {
+  border: 1px solid #dbdbdb;
+}
+.img-card-comment-form {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-top: 1px solid #efefef;
+}
+
+.img-card-comment-form form input.comment-content {
+  width: 100%;
+}
+.img-card-comment-form form input#comment-form {
+  width: 90%;
+  border: none;
+  padding: 10px 0;
+}
+.img-card-comment-form form input#comment-form:focus {
+  outline: none;
+  outline-offset: 0;
+}
+.img-card-comment-form form input[type="submit"] {
+  width: 9%;
+  border: none;
+  text-align: center;
+  color: #0095f6;
+  font-weight: bold;
+}
+.img-card-comment-form form input[type="submit"]:focus {
+  outline: none;
+  outline-offset: 0;
+}
+#icon-list {
+  width: 100px;
+}
+#icon-list ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
